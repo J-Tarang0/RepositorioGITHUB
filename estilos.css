@@ -1,0 +1,248 @@
+body{
+    background-color: #ffffff;
+    color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen {header,nav,section,article,aside,footer{
+    width: 100%;}  
+}
+
+h1{
+    color: #008d59;
+    margin: .25em auto;
+    text-align: center;
+    width: 90%;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+#navegacion, #futer{
+    width: 100%;
+    background-color: rgb(156, 156, 156);
+}
+nav,aside{
+    background-color: #FFF;
+    border-radius: .50em;
+    text-align: center;
+    margin: .25em auto;
+    padding: .25em;
+
+}
+nav,aside {
+    width: 24%;
+    text-align: center;
+    height: 450px;
+    background-color: #fff;
+}
+section {
+    width: 40%;
+    height: 450px;
+}
+nav,section,aside{
+    display: inline-block;
+}
+
+#cabecera,#articulo,#pie{
+    text-align: center;
+    width: 95%;
+    color: black;
+}
+
+#futer{
+    background-color: rgb(156, 156, 156);
+}
+
+#articulo{
+    min-height: 150px;
+}
+#asaid{
+    float:right;
+    margin-right: 56px;
+    background-image: url(Imagenes/QUE-ES-CFE.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navegador{
+    float: left;
+    margin-left: 56px;
+    background-image: url(Imagenes/Planta-eléctrica-Puntoporpunto-e1420854224186.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+
+#contenedor{
+    background-image: url(Imagenes/CFE.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+
+/* Submenu*/
+
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+
+  .navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+    box-align: left;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #5dfd00;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*Menu desplegable del nav*/
+
+body {
+    background-color : #ededed; 
+    font-family : "Open Sans", sans-serif;
+}
+
+li a {
+    text-decoration : none; 
+    color : #2d2f31;
+}
+
+
+nav {
+  width : 24%;
+  background: #d9d9d9;
+}
+
+span {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  background-color: #d9d9d9;
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 300px;} 
+
+/*Menu desplegable*/
+
+li a {
+    text-decoration : none; 
+    color : #2d2f31;
+}
+
+
+aside {
+  width : 24%;
+  background: #d9d9d9;
+  background: #d9d9d9;
+}
+
+.ne {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.ne::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.deslizador {
+  background-color: #d9d9d9;
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.deslizador li {padding : 30px;}
+
+#check {position: absolute; opacity: 0; height: 0px;}    
+
+#check:checked + .deslizador {height: 300px;}
